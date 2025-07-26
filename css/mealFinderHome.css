@@ -1,0 +1,216 @@
+.navbar-row {
+    height: 40px;
+    /* Give row a fixed height */
+    background-color: hwb(20 0% 0% / 0.902);
+}
+
+.bg-image-full-width {
+
+    position: relative;
+    height: 300px;
+
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/header_image.1dc0f346d407fc577d16.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+
+.search-icon {
+
+    border: 1px solid white;
+    background-color: hwb(20 0% 0% / 0.902);
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: -50px;
+
+
+}
+
+.search-icon:hover {
+
+    background-color: white;
+    color: hwb(20 0% 0% / 0.902);
+}
+
+.categories-container {
+    background-color: rgba(220, 220, 220, 0.62);
+    padding: 20px;
+}
+
+.under-line {
+    height: 2px;
+    width: 60px;
+    border: 2px solid hwb(20 0% 0% / 0.902);
+}
+
+
+.categories-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    border-bottom: 3px solid hwb(20 0% 0% / 0.902);
+    display: inline-block;
+}
+
+
+/* Card Styles */
+.img-container {
+    position: relative;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: transform 1s ease-in-out;
+}
+
+.img-container:hover {
+    transform: scale(0.95);
+}
+
+.img-container img {
+    width: 100%;
+    height: 120px;
+
+}
+
+/* Label */
+
+.img-text {
+    font-size: x-small;
+    font-weight: bolder;
+    border: 1px solid hwb(20 0% 0% / 0.902);
+    color: white;
+    background-color: hwb(20 0% 0% / 0.902);
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+    margin-top: 3px;
+    margin-right: 3px;
+
+
+}
+
+
+
+.veg-image {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 0;
+
+}
+
+
+.veg-img-text {
+    font-size: x-small;
+    font-weight: bolder;
+    border: 1px solid ghostwhite;
+    width: 100%;
+    margin: 0;
+    text-align: start;
+    align-content: center;
+    padding-left: 10px;
+
+
+}
+
+.item-details-heading-name {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+
+.item-contaier-detail{
+    color: hwb(20 0% 0% / 0.902);
+    font-size: larger;
+}
+
+
+.fd-item-details {
+    letter-spacing: 0.1em;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.fd-item-details-tags {
+    border: 1px solid hwb(20 0% 0% / 0.902);
+    color: hwb(20 0% 0% / 0.902);
+    margin-left: 2px;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: lighter;
+}
+
+.fd-ingredients-container {
+    border: 1px solid hwb(20 0% 0% / 0.902);
+    background-color: hwb(20 0% 0% / 0.902);
+    color: white;
+    padding: 10px;
+
+}
+
+
+
+.fd-ingredients-listItems::first-letter {
+    border: 1px solid white;
+    background-color: green;
+    width: 1px;
+    height: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    font-weight: lighter;
+
+}
+
+.fd-ingredients-measure {
+
+    border: 1px solid rgb(231, 224, 224);
+    background-color: rgb(243, 234, 234);
+    align-content: center;
+    padding:20px;
+
+}
+
+.fd-ingredients-measure-quantity {
+    font-size: small;
+    margin-bottom: 2px;
+    font-weight: medium;
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .custom-frame {
+        flex: 0 0 20%;
+
+
+
+    }
+
+}
